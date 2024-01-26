@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FLATICON ===============-->
+    <link rel="icon" href="assets/img/Logo-ODP-4.png" type="image/x-icon">
+    <link 
+      rel='stylesheet' 
+      href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Shop</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <div class="header__top">
+        <div class="header__container container">
+           <div class="header__contact">
+            <span>(+84) - 21CTMDT01H4N</span>
+
+            <span>Địa điểm chúng tôi</span>
+           </div>
+
+           <p class="header__alert-news">
+            Pijama - Tiết kiệm và Giảm giá đặc biệt
+           </p>
+
+           <a href="login-register.html" class="header__top-action">
+            Đăng Nhập / Đăng Ký
+           </a>
+        </div>
+      </div>
+
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img src="assets/img/Logo-ODP-4.png" alt="" class="nav__logo-img">
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link ">Trang Chủ</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="shop.html" class="nav__link active-link">Cửa Hàng</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="" class="nav__link">Tài Khoản</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="" class="nav__link">So Sánh</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="login-register.html" class="nav__link">Đăng Nhập</a>
+            </li>
+          </ul>
+
+          <div class="header__search">
+            <input 
+            type="text" 
+            placeholder="Search for items..." 
+            class="form__input"
+            />
+
+            <button class="search__btn">
+              <img src="assets/img/search.png" alt="">
+            </button>
+          </div>
+        </div>
+
+        <div class="header__user-actions">
+          <a href="wishlist.html" class="header__action-btn">
+            <img src="assets/img/icon-heart.svg" alt=""/>
+            <span class="count">8</span>
+          </a>
+
+          <a href="cart.html" class="header__action-btn">
+            <img src="assets/img/icon-cart.svg" alt=""/>
+            <span class="count">67</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== BREADCRUMB ===============-->
+      <section class="breadcrumb">
+        <ul class="breadcrumb__list flex container">
+          <li><a href="index.html" class="breadcrumb__link">Trang Chủ</a></li>
+          <li><span class="breadcrumb__link">></span></li>
+          <li><span class="breadcrumb__link">Cửa Hàng</span></li>
+        </ul>
+      </section>
+
+      <!--=============== PRODUCTS ===============-->
+      <section class="products section--lg container">
+        <p class="total__products">Chúng tôi đã tìm thấy <span>688</span> mặt hàng cho bạn</p>
+
+        <div class="products__container grid">
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img 
+                  src="assets/img/9.jpg" 
+                  alt="" 
+                  class="product__img default"
+                >
+
+                <img 
+                  src="assets/img/10.jpg" 
+                  alt="" 
+                  class="product__img hover"
+                >
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a 
+                  href="#" 
+                  class="action__btn" 
+                  aria-label="Add To Wishlist"
+                  >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-pink">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Quần Áo</span>
+              <a href="details.html">
+                <h3 class="product__title">Pink Light Pijama</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">1.500.400đ</span>
+                <span class="old__price">2.500.400đ</span>
+              </div>
+
+              <a 
+                href="#" 
+                class="action__btn cart__btn" 
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img 
+                  src="assets/img/11.jpg" 
+                  alt="" 
+                  class="product__img default"
+                >
+
+                <img 
+                  src="assets/img/12.jpg" 
+                  alt="" 
+                  class="product__img hover"
+                >
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a 
+                  href="#" 
+                  class="action__btn" 
+                  aria-label="Add To Wishlist"
+                  >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-green">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Quần Áo</span>
+              <a href="details.html">
+                <h3 class="product__title">Black Light Pijama</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">1.400.400đ</span>
+                <span class="old__price">4.900.400đ</span>
+              </div>
+
+              <a 
+                href="#" 
+                class="action__btn cart__btn" 
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img 
+                  src="assets/img/13.jpg" 
+                  alt="" 
+                  class="product__img default"
+                >
+
+                <img 
+                  src="assets/img/14.jpg" 
+                  alt="" 
+                  class="product__img hover"
+                >
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a 
+                  href="#" 
+                  class="action__btn" 
+                  aria-label="Add To Wishlist"
+                  >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-orange">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Quần Áo</span>
+              <a href="details.html">
+                <h3 class="product__title">White Light Pijama</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">8.500.400đ</span>
+                <span class="old__price">13.500.400đ</span>
+              </div>
+
+              <a 
+                href="#" 
+                class="action__btn cart__btn" 
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img 
+                  src="assets/img/15.jpg" 
+                  alt="" 
+                  class="product__img default"
+                >
+
+                <img 
+                  src="assets/img/16.jpg" 
+                  alt="" 
+                  class="product__img hover"
+                >
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a 
+                  href="#" 
+                  class="action__btn" 
+                  aria-label="Add To Wishlist"
+                  >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-blue">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.html">
+                <h3 class="product__title">Pink Light Pijama</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">1.500.400đ</span>
+                <span class="old__price">2.500.400đ</span>
+              </div>
+
+              <a 
+                href="#" 
+                class="action__btn cart__btn" 
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img 
+                  src="assets/img/17.jpg" 
+                  alt="" 
+                  class="product__img default"
+                >
+
+                <img 
+                  src="assets/img/18.jpg" 
+                  alt="" 
+                  class="product__img hover"
+                >
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a 
+                  href="#" 
+                  class="action__btn" 
+                  aria-label="Add To Wishlist"
+                  >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-pink">-30%</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Quần Áo</span>
+              <a href="details.html">
+                <h3 class="product__title">Yellow Light Pijama</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">6.500.400đ</span>
+                <span class="old__price">9.999.400đ</span>
+              </div>
+
+              <a 
+                href="#" 
+                class="action__btn cart__btn" 
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img 
+                  src="assets/img/19.jpg" 
+                  alt="" 
+                  class="product__img default"
+                >
+
+                <img 
+                  src="assets/img/20.jpg" 
+                  alt="" 
+                  class="product__img hover"
+                >
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a 
+                  href="#" 
+                  class="action__btn" 
+                  aria-label="Add To Wishlist"
+                  >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-pink">-22%</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Quần Áo</span>
+              <a href="details.html">
+                <h3 class="product__title">Cute Pijama</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">12.300.400đ</span>
+                <span class="old__price">20.500.400đ</span>
+              </div>
+
+              <a 
+                href="#" 
+                class="action__btn cart__btn" 
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img 
+                  src="assets/img/21.jpg" 
+                  alt="" 
+                  class="product__img default"
+                >
+
+                <img 
+                  src="assets/img/22.jpg" 
+                  alt="" 
+                  class="product__img hover"
+                >
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a 
+                  href="#" 
+                  class="action__btn" 
+                  aria-label="Add To Wishlist"
+                  >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-green">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Quần Áo</span>
+              <a href="details.html">
+                <h3 class="product__title"> Light Pijama</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">5.500.400đ</span>
+                <span class="old__price">7.500.400đ</span>
+              </div>
+
+              <a 
+                href="#" 
+                class="action__btn cart__btn" 
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img 
+                  src="assets/img/23.jpg" 
+                  alt="" 
+                  class="product__img default"
+                >
+
+                <img 
+                  src="assets/img/24.jpg" 
+                  alt="" 
+                  class="product__img hover"
+                >
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a 
+                  href="#" 
+                  class="action__btn" 
+                  aria-label="Add To Wishlist"
+                  >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Quần Áo</span>
+              <a href="details.html">
+                <h3 class="product__title">Pink Light Pijama</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">30.900.400đ</span>
+                <span class="old__price">31.500.400đ</span>
+              </div>
+
+              <a 
+                href="#" 
+                class="action__btn cart__btn" 
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img 
+                  src="assets/img/17.jpg" 
+                  alt="" 
+                  class="product__img default"
+                >
+
+                <img 
+                  src="assets/img/18.jpg" 
+                  alt="" 
+                  class="product__img hover"
+                >
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a 
+                  href="#" 
+                  class="action__btn" 
+                  aria-label="Add To Wishlist"
+                  >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-pink">-30%</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Quần Áo</span>
+              <a href="details.html">
+                <h3 class="product__title">Yellow Light Pijama</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">6.500.400đ</span>
+                <span class="old__price">9.999.400đ</span>
+              </div>
+
+              <a 
+                href="#" 
+                class="action__btn cart__btn" 
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img 
+                  src="assets/img/19.jpg" 
+                  alt="" 
+                  class="product__img default"
+                >
+
+                <img 
+                  src="assets/img/20.jpg" 
+                  alt="" 
+                  class="product__img hover"
+                >
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a 
+                  href="#" 
+                  class="action__btn" 
+                  aria-label="Add To Wishlist"
+                  >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-pink">-22%</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Quần Áo</span>
+              <a href="details.html">
+                <h3 class="product__title">Cute Pijama</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">12.300.400đ</span>
+                <span class="old__price">20.500.400đ</span>
+              </div>
+
+              <a 
+                href="#" 
+                class="action__btn cart__btn" 
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img 
+                  src="assets/img/21.jpg" 
+                  alt="" 
+                  class="product__img default"
+                >
+
+                <img 
+                  src="assets/img/22.jpg" 
+                  alt="" 
+                  class="product__img hover"
+                >
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a 
+                  href="#" 
+                  class="action__btn" 
+                  aria-label="Add To Wishlist"
+                  >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-green">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Quần Áo</span>
+              <a href="details.html">
+                <h3 class="product__title"> Light Pijama</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">5.500.400đ</span>
+                <span class="old__price">7.500.400đ</span>
+              </div>
+
+              <a 
+                href="#" 
+                class="action__btn cart__btn" 
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img 
+                  src="assets/img/23.jpg" 
+                  alt="" 
+                  class="product__img default"
+                >
+
+                <img 
+                  src="assets/img/24.jpg" 
+                  alt="" 
+                  class="product__img hover"
+                >
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a 
+                  href="#" 
+                  class="action__btn" 
+                  aria-label="Add To Wishlist"
+                  >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Quần Áo</span>
+              <a href="details.html">
+                <h3 class="product__title">Pink Light Pijama</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">30.900.400đ</span>
+                <span class="old__price">31.500.400đ</span>
+              </div>
+
+              <a 
+                href="#" 
+                class="action__btn cart__btn" 
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <ul class="pagination">
+          <li><a href="#" class="pagination__link active">01</a></li>
+          <li><a href="#" class="pagination__link">02</a></li>
+          <li><a href="#" class="pagination__link">03</a></li>
+          <li><a href="#" class="pagination__link">...</a></li>
+          <li><a href="#" class="pagination__link">16</a></li>
+          <li>
+            <a href="#" class="pagination__link icon">
+              <i class="fi-rs-angle-double-small-right"></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter section">
+        <div class="newsletter__container container grid">
+          <h3 class="newsletter__title flex">
+            <img 
+              src="assets/img/icon-email.svg" 
+              alt="" 
+              class="newsletter__icon"
+            >
+            Đăng ký nhận bảng tin ngay !!!
+          </h3>
+
+          <p class="newsletter__description">
+            ... và nhận phiếu giảm giá khi mua hàng.
+          </p>
+
+          <form action="" class="newsletter__form">
+            <input 
+              type="text" 
+              placeholder="Nhập Email của bạn" 
+              class="newsletter__input"
+            >
+            <button type="submit" class="newsletter__btn">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+      <div class="footer__container grid">
+        <div class="footer__content">
+          <a href="index.html" class="footer__logo">
+            <img src="assets/img/Logo-ODP-4.png" alt="" class="footer__logo-img">
+          </a>
+
+          <h4 class="footer__subtitle">Liên Hệ</h4>
+
+          <p class="footer__description">
+            <span>Địa Chỉ:</span> 32 Nguyễn Bỉnh Khiêm, Phường 1, Quận Gò Vấp, Tp Hồ Chí Minh
+          </p>
+
+          <p class="footer__description">
+            <span>Điện Thoại:</span> 21CTMDT01H4N @@
+          </p>
+
+          <p class="footer__description">
+            <span>Thời Gian:</span> 8h30p Sáng - 23h Tối, Thứ 2 - Chủ Nhật
+          </p>
+
+          <div class="footer__social">
+            <h4 class="footer__subtitle">Theo dõi tôi</h4>
+
+            <div class="footer__social-links flex">
+              <a href="">
+                <img 
+                  src="assets/img/icon-facebook.svg" 
+                  alt="" 
+                  class="footer__social-icon"
+                >
+              </a>
+
+              <a href="">
+                <img 
+                  src="assets/img/icon-twitter.svg" 
+                  alt="" 
+                  class="footer__social-icon"
+                >
+              </a>
+
+              <a href="">
+                <img 
+                  src="assets/img/icon-instagram.svg" 
+                  alt="" 
+                  class="footer__social-icon"
+                >
+              </a>
+
+              <a href="">
+                <img 
+                  src="assets/img/icon-pinterest.svg" 
+                  alt="" 
+                  class="footer__social-icon"
+                >
+              </a>
+
+              <a href="">
+                <img 
+                  src="assets/img/icon-youtube.svg" 
+                  alt="" 
+                  class="footer__social-icon"
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Địa Chỉ</h3>
+
+          <ul class="footer__links">
+            <li><a href="" class="footer__link">Về Chúng Tôi</a></li>
+            <li><a href="" class="footer__link">Thông Tin Giao Hàng</a></li>
+            <li><a href="" class="footer__link">Chính Sách Bảo Mật</a></li>
+            <li><a href="" class="footer__link">Điều Kiện và Chính Sách</a></li>
+            <li><a href="" class="footer__link">Liên hệ chúng tôi</a></li>
+            <li><a href="" class="footer__link">Trung Tâm Hỗ Trợ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Tài Khoản Chúng Tôi</h3>
+
+          <ul class="footer__links">
+            <li><a href="" class="footer__link">Đăng Nhập</a></li>
+            <li><a href="" class="footer__link">Xem Đơn Hàng</a></li>
+            <li><a href="" class="footer__link">Sản Phẩm Yêu Thích</a></li>
+            <li><a href="" class="footer__link">Theo Dõi Đơn Hàng</a></li>
+            <li><a href="" class="footer__link">Giúp Đỡ</a></li>
+            <li><a href="" class="footer__link">Đặt Hàng</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Cổng Thanh Toán An Toàn</h3>
+
+          <img 
+            src="assets/img/payment-method.png" 
+            alt="" 
+            class="payment__img"
+          >
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="copyright">&copy; 2024 Pijama Shop. Đã đăng ký Bản quyền </p>
+        <span class="designer">Thiết kế bởi 21CTMDT01H4N</span>
+      </div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

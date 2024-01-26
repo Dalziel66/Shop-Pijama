@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== FLATICON ===============-->
+    <link rel="icon" href="assets/img/Logo-ODP-4.png" type="image/x-icon">
+    <link 
+      rel='stylesheet' 
+      href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+
+    <title>Đăng Nhập</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <div class="header__top">
+        <div class="header__container container">
+           <div class="header__contact">
+            <span>(+84) - 21CTMDT01H4N</span>
+
+            <span>Địa điểm chúng tôi</span>
+           </div>
+
+           <p class="header__alert-news">
+            Pijama - Tiết kiệm và Giảm giá đặc biệt
+           </p>
+
+           <a href="login-register.html" class="header__top-action">
+            Đăng Nhập / Đăng Ký
+           </a>
+        </div>
+      </div>
+
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img src="assets/img/Logo-ODP-4.png" alt="" class="nav__logo-img">
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">Trang Chủ</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="shop.html" class="nav__link">Cửa Hàng</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="" class="nav__link">Tài Khoản</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="" class="nav__link">So Sánh</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="login-register.html" class="nav__link active-link">Đăng Nhập</a>
+            </li>
+          </ul>
+
+          <div class="header__search">
+            <input 
+            type="text" 
+            placeholder="Search for items..." 
+            class="form__input"
+            />
+
+            <button class="search__btn">
+              <img src="assets/img/search.png" alt="">
+            </button>
+          </div>
+        </div>
+
+        <div class="header__user-actions">
+          <a href="wishlist.html" class="header__action-btn">
+            <img src="assets/img/icon-heart.svg" alt=""/>
+            <span class="count">8</span>
+          </a>
+
+          <a href="cart.html" class="header__action-btn">
+            <img src="assets/img/icon-cart.svg" alt=""/>
+            <span class="count">67</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== BREADCRUMB ===============-->
+      <section class="breadcrumb">
+        <ul class="breadcrumb__list flex container">
+          <li><a href="index.html" class="breadcrumb__link">Trang Chủ</a></li>
+          <li><span class="breadcrumb__link">></span></li>
+          <li><span class="breadcrumb__link">Đăng Nhập / Đăng Kí</span></li>
+        </ul>
+      </section>
+
+      <!--=============== LOGIN-REGISTER ===============-->
+      <section class="login-register section--lg">
+        <div class="login-register__container container grid">
+          <div class="login">
+            <h3 class="section__title">Đăng Nhập</h3>
+
+            <form action="" class="form grid">
+              <input 
+                type="email"
+                placeholder="Your Email" 
+                class="form__input"
+              >
+
+              <input 
+                type="password"
+                placeholder="Your Password" 
+                class="form__input"
+              >
+
+              <div class="form__btn">
+                <button class="btn">Đăng Nhập</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="register">
+            <h3 class="section__title">Tạo tài khoản mới</h3>
+
+            <form action="" class="form grid">
+              <input 
+                type="text"
+                placeholder="Username" 
+                class="form__input"
+              >
+
+              <input 
+                type="email"
+                placeholder="Your Email" 
+                class="form__input"
+              >
+
+              <input 
+                type="password"
+                placeholder="Your Password" 
+                class="form__input"
+              >
+
+              <input 
+                type="password"
+                placeholder="Confirm Password" 
+                class="form__input"
+              >
+
+              <div class="form__btn">
+                <button class="btn">Gửi và Đăng Kí</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter section">
+        <div class="newsletter__container container grid">
+          <h3 class="newsletter__title flex">
+            <img 
+              src="assets/img/icon-email.svg" 
+              alt="" 
+              class="newsletter__icon"
+            >
+            Đăng ký nhận bảng tin ngay !!!
+          </h3>
+
+          <p class="newsletter__description">
+            ... và nhận phiếu giảm giá khi mua hàng.
+          </p>
+
+          <form action="" class="newsletter__form">
+            <input 
+              type="text" 
+              placeholder="Nhập Email của bạn" 
+              class="newsletter__input"
+            >
+            <button type="submit" class="newsletter__btn">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+      <div class="footer__container grid">
+        <div class="footer__content">
+          <a href="index.html" class="footer__logo">
+            <img src="assets/img/Logo-ODP-4.png" alt="" class="footer__logo-img">
+          </a>
+
+          <h4 class="footer__subtitle">Liên Hệ</h4>
+
+          <p class="footer__description">
+            <span>Địa Chỉ:</span> 32 Nguyễn Bỉnh Khiêm, Phường 1, Quận Gò Vấp, Tp Hồ Chí Minh
+          </p>
+
+          <p class="footer__description">
+            <span>Điện Thoại:</span> 21CTMDT01H4N @@
+          </p>
+
+          <p class="footer__description">
+            <span>Thời Gian:</span> 8h30p Sáng - 23h Tối, Thứ 2 - Chủ Nhật
+          </p>
+
+          <div class="footer__social">
+            <h4 class="footer__subtitle">Theo dõi tôi</h4>
+
+            <div class="footer__social-links flex">
+              <a href="">
+                <img 
+                  src="assets/img/icon-facebook.svg" 
+                  alt="" 
+                  class="footer__social-icon"
+                >
+              </a>
+
+              <a href="">
+                <img 
+                  src="assets/img/icon-twitter.svg" 
+                  alt="" 
+                  class="footer__social-icon"
+                >
+              </a>
+
+              <a href="">
+                <img 
+                  src="assets/img/icon-instagram.svg" 
+                  alt="" 
+                  class="footer__social-icon"
+                >
+              </a>
+
+              <a href="">
+                <img 
+                  src="assets/img/icon-pinterest.svg" 
+                  alt="" 
+                  class="footer__social-icon"
+                >
+              </a>
+
+              <a href="">
+                <img 
+                  src="assets/img/icon-youtube.svg" 
+                  alt="" 
+                  class="footer__social-icon"
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Địa Chỉ</h3>
+
+          <ul class="footer__links">
+            <li><a href="" class="footer__link">Về Chúng Tôi</a></li>
+            <li><a href="" class="footer__link">Thông Tin Giao Hàng</a></li>
+            <li><a href="" class="footer__link">Chính Sách Bảo Mật</a></li>
+            <li><a href="" class="footer__link">Điều Kiện và Chính Sách</a></li>
+            <li><a href="" class="footer__link">Liên hệ chúng tôi</a></li>
+            <li><a href="" class="footer__link">Trung Tâm Hỗ Trợ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Tài Khoản Chúng Tôi</h3>
+
+          <ul class="footer__links">
+            <li><a href="" class="footer__link">Đăng Nhập</a></li>
+            <li><a href="" class="footer__link">Xem Đơn Hàng</a></li>
+            <li><a href="" class="footer__link">Sản Phẩm Yêu Thích</a></li>
+            <li><a href="" class="footer__link">Theo Dõi Đơn Hàng</a></li>
+            <li><a href="" class="footer__link">Giúp Đỡ</a></li>
+            <li><a href="" class="footer__link">Đặt Hàng</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Cổng Thanh Toán An Toàn</h3>
+
+          <img 
+            src="assets/img/payment-method.png" 
+            alt="" 
+            class="payment__img"
+          >
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="copyright">&copy; 2024 Pijama Shop. Đã đăng ký Bản quyền </p>
+        <span class="designer">Thiết kế bởi 21CTMDT01H4N</span>
+      </div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
